@@ -38,6 +38,7 @@ class Game {
 		WindowDisplay display = new WindowDisplay(board, new HumanPlayer());
 		Game mygame = new Game(board, display);
 		mygame.activateMonster(display);
+		//start
 	}
 
 }
